@@ -1,0 +1,44 @@
+.root {
+    & .ant-picker.ant-picker-range.css-dev-only-do-not-override-12upa3x {
+      width: 100%;
+    }
+  }
+  
+  .date-styles{
+    width:70%
+  }
+
+  /* Custom CSS */
+.collapsible-header {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  transition: background-color 0.3s ease;
+  height: 40px;
+}
+
+.collapsible-header:hover {
+  background-color: #e0e0e0;
+}
+
+.collapsible-header.expanded {
+  background-color: #d3d3d3;
+}
+
+.collapsible-header span {
+  margin-right: 10px;
+}
+
+/* FontAwesome classes */
+.fas.fa-chevron-up,
+.fas.fa-chevron-down {
+  transition: transform 0.3s ease;
+}
+
+.collapsible-header.expanded .fas.fa-chevron-up {
+  transform: rotate(180deg);
+}
+

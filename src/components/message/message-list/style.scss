@@ -1,0 +1,38 @@
+@import "../../../constants/colors.scss";
+@import "../../../constants/fonts.scss";
+
+.messsage-list-container {
+    width: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 24px 0px rgba(0, 0, 0, 0.08);
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // padding-bottom: 0.6rem;
+
+    .message-item-flex-container {
+        // height: 100vh;
+        height: 60vh;
+        border: 2px #A0A7AF;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.search-group-member {
+
+    .ant-select-selector {
+        border-radius: 0.5rem !important;
+        height: 35px;
+
+        .ant-select-selection-overflow {
+            flex-wrap: nowrap !important;
+            overflow: auto;
+        }
+    }
+    .ant-select-arrow{
+        display: none;
+    }
+}

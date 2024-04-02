@@ -1,0 +1,19 @@
+@import "../../../constants/colors.scss";
+@import "../../../constants/fonts.scss";
+
+.onboarding-platform-container{
+    margin-top: 65px;
+}
+
+.addCardPlatform ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+   
+}
+
+
+.addCardPlatform ul li {
+    list-style: none;
+    flex: 0 0 24%;
+}

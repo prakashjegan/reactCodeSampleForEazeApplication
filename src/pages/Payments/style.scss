@@ -1,0 +1,294 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.payment-container {
+   padding: 50px 70px;
+   font-family: $roboto-bold;
+   font-size: 16px;
+   color: $black;
+   text-align: center;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.paymentCharts {
+   //    border: 2px solid forestgreen;
+   border-radius: 8px;
+   margin-bottom: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   background: #fff;
+}
+
+.paymentChartMainHeader {
+   width: 100%;
+   margin: 20px auto;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   text-align: start;
+   justify-content: space-evenly;
+}
+.paymentChartMainHeader h3,
+.paymentRoundChart-header h3 {
+   color: #000;
+   margin-bottom: 5px;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 160%; /* 32px */
+   letter-spacing: -0.8px;
+}
+
+.paymentChartMainHeader h1,
+.paymentRoundChart-header h1 {
+   color: var(--black, #000);
+   font-family: Inter;
+   font-size: 28px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 160%; /* 44.8px */
+   letter-spacing: 1.12px;
+}
+.paymentCharts-chartArea {
+   display: flex;
+   text-align: start;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.paymentRoundChart-chartarea {
+   //    border: 2px solid greenyellow;
+   width: 100%;
+   margin: 20px 20px 20px 0;
+   display: flex;
+
+   //    margin-right: auto;
+   justify-content: center;
+   align-items: center;
+   //    gap: 20px;
+   flex-direction: row;
+}
+.paymentRoundChart-chartItems {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+
+   //    border: 2px solid rebeccapurple;
+}
+.paymentRoundChart-chartItems div {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+.recentPaymentCard,
+.upcomingPaymentCard {
+   text-align: start;
+   padding: 8px;
+   border-radius: 8px;
+   background: var(--white, #fff);
+   margin: 0 0 20px 0;
+}
+
+.recentPaymentCard h3,
+.upcomingPaymentCard h3 {
+   margin: 10px 0;
+   color: var(--black, #1b1c1e);
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.paymentCardItem {
+   padding: 8px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid var(--grey-2, #f4f5f6);
+}
+.paymentCardItem h3,
+.paymentCardItem span,
+.datatable-avatar h3 {
+   color: var(--black, #000);
+   font-family: $roboto-light;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+.paymentCardItem p,
+.datatable-avatar span {
+   color: var(--grey-6, #a4abb7);
+   font-family: $roboto-light;
+   margin-top: 10px;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+}
+.paymentCardItem span {
+}
+.paymentCardItem-avatar {
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   text-align: start;
+}
+
+.paymentCardItem-data {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.datatable-avatar {
+   display: flex;
+   margin: 10px auto;
+   flex-direction: row;
+   align-items: center;
+   gap: 10px;
+   text-align: start;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+.datatable-subHeader {
+   width: 100%;
+   //    border: 2px solid goldenrod;
+   display: flex;
+   align-items: center;
+   margin: 10px 20px;
+   flex-direction: row;
+   justify-content: space-between;
+   gap: 10px;
+}
+
+.datatable-subHeader h1 {
+   color: var(--black, #000);
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.datatable-input {
+   padding: 0px;
+   height: 40px;
+}
+.payment-datatable {
+   width: 100%;
+   margin: 30px auto;
+   padding: 10px;
+   text-align: left;
+   border-radius: 8px;
+   background: var(--white, #fff);
+}
+.dataTable-footer {
+   //    border: 2px solid fuchsia;
+   margin: 5px 0;
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+}
+
+.payment-datatable-header h1 {
+   color: var(--black, #1b1c1e);
+   font-family: Inter;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+.datatable-action-icon {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+}
+.datatable-action-icon svg {
+   cursor: pointer;
+}
+
+.upload-modal {
+   // width: 591px;
+   // height: 478px;
+   // // padding: 24px;
+   // z-index: 2;
+   // // flex-direction: column;
+   // // gap: 24px;
+   border-radius: 8px;
+   // background: #fff;
+}
+
+.upload-modal-uploadArea {
+   width: 25vw;
+   min-width: 591px;
+   height: 478px;
+   padding: 10px 0px;
+   // z-index: 2;
+   display: flex;
+   align-items: center;
+
+   flex-direction: column;
+   gap: 24px;
+   border-radius: 8px;
+   background: #fff;
+}
+.upload-modal-dragArea {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   width: 490px;
+   height: 253px;
+}
+.upload-modal-uploadArea h1 {
+   color: #272727;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 32px;
+}
+.upload-modal-uploadArea p {
+   color: var(--brand-grayscale-dark, #272727);
+   text-align: center;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 22px; /* 137.5% */
+   letter-spacing: 0.32px;
+}
+.upload-modal-dragArea {
+   display: flex;
+   gap: 20px;
+}
+.upload-modal-dragArea p {
+   color: #69789c;
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+}
+
+.upload-modal-btn-grp {
+   width: 80%;
+   display: flex;
+   gap: 30px;
+   justify-content: space-evenly;
+}
+.upload-modal-btn-grp button {
+   flex-grow: 1;
+   padding: 0px;
+   font-size: larger;
+}

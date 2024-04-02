@@ -1,0 +1,36 @@
+@import "./constants/colors.scss";
+@import "./constants/fonts.scss";
+
+body {
+   margin: 0;
+   font-family: "Roboto";
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
+   input:focus {
+      outline: none;
+   }
+}
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+code {
+   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.content-container {
+   max-width: 1600px;
+   background-color: $white;
+   margin: auto;
+
+   .ant-input:focus {
+      outline: none !important;
+      box-shadow: none !important;
+   }
+}

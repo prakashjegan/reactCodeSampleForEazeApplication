@@ -1,0 +1,33 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.sideNavigation-body {
+   margin: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.sideNavigation-body a {
+   color: #666;
+   // margin: auto 100px;
+   text-align: center;
+   font-family: $roboto-light;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 216.667% */
+   letter-spacing: 0.96px;
+   text-decoration: none;
+}
+.sideNavigation-footer {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+}
+.sideNavigation-footer svg {
+   margin: 0 5px;
+}

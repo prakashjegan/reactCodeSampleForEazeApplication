@@ -1,0 +1,184 @@
+@import "../../../constants/colors.scss";
+@import "../../../constants/fonts.scss";
+
+.ask_modal {
+    .ask-modal-header {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .answering-panel {
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
+
+        .answering-user {
+            display: flex;
+            align-items: center;
+            gap: 0.2rem;
+            margin-bottom: 0.94rem;
+        }
+
+        .answring-title-input {
+            width: 100%;
+        }
+
+        .answering-ans-input {
+            margin-top: 2.5rem;
+            width: 100%;
+        }
+
+        .btns-container {
+            float: right;
+            padding: 0.4rem 0;
+        }
+    }
+}
+
+.ant-modal-title {
+    text-align: center !important;
+}
+
+.queries-list-container {
+    width: 33.9375rem;
+    margin-right: 15px;
+    border-radius: 5px;
+    font-family: $roboto-regular;
+
+    .selected-query {
+        background-color: $blue !important;
+        color: $white !important;
+
+        .query-name {
+            color: $white !important;
+        }
+        .query-question {
+            font-family: $roboto-medium;
+            font-size: 15px;
+            margin-bottom: 10px;
+            color: $white !important;
+        }
+        .query-tag {
+            white-space: nowrap;
+            color: $white !important;
+        }
+
+        .tag-item {
+            background-color: $white !important;
+            color: $blue !important;
+        }
+    }
+
+    .query-nav {
+        margin-bottom: 10px;
+
+        .search-input {
+            width: 100%;
+        }
+
+        .tab-container {
+            display: flex;
+            gap: 0.3rem;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            margin-top: 1rem;
+        }
+
+        .tab-btn {
+            border: hidden;
+            font-weight: 600;
+            color: gray;
+        }
+
+        .tab-active {
+            color: #3263E3;
+            text-decoration: underline;
+            text-decoration-color: #3263E3;
+        }
+    }
+    .query-item {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        color: $light-text;
+        display: flex;
+        gap: 1rem;
+
+        .ant-card-body {
+            width: 100%;
+        }
+
+        .query-tag {
+            white-space: nowrap;
+        }
+
+        .query-question {
+            font-family: $roboto-medium;
+            font-size: 15px;
+            color: $black;
+            margin-bottom: 10px;
+            color: blue;
+        }
+
+        .query-question-desc {
+            font-family: $roboto-regular;
+            font-size: 13px;
+            margin-bottom: 10px;
+            white-space: pre-line;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+
+            .tag-item {
+                background-color: #e1ecf4;
+                color: #39739d;
+                padding: 5px 10px;
+                // margin-right: 10px;
+                border-radius: 3px;
+                font-size: 11px;
+
+            }
+        }
+
+        .statistics {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .ant-rate {
+                font-size: 13px;
+
+                .ant-rate-star {
+                    margin-inline-end: 2px;
+                }
+            }
+
+            .verified {
+                display: flex;
+                align-items: center;
+                font-size: 12px;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 4px;
+                }
+            }
+
+            .proposals {
+                font-family: $roboto-medium;
+                font-size: 13px;
+
+                .count {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

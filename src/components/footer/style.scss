@@ -1,0 +1,50 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.footer-container {
+    width: 100%;
+    height: 70px;
+    background-color: $light-black;
+    padding: 0 70px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-flex {
+        display: flex;
+        align-items: center;
+
+        .brand-name {
+            font-family: $roboto-bold;
+            font-size: 16px;
+            color: $black;
+            margin-right: 5px;
+        }
+
+        .copyright {
+            font-family: $roboto-regular;
+            font-size: 14px;
+            color: $black;
+
+            .copyright-icon {
+                width: 10px;
+                height: 10px;
+                margin: 0 5px;
+            }
+        }
+    }
+
+    .right-flex{
+        display: flex;
+        align-items: center;
+
+        .link-item {
+            font-family: $roboto-regular;
+            font-size: 14px;
+            color: $link-color;
+            margin-left: 15px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.notification-container {
+    padding: 50px 70px;
+    font-family: $roboto-bold;
+    font-size: 16px;
+    color: $black;
+}

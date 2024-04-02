@@ -1,0 +1,156 @@
+@import "../../../constants/colors.scss";
+@import "../../../constants/fonts.scss";
+
+.jobs-details-container {
+    width: calc(100% - 240px - 415px);
+    background-color: $white;
+    border-radius: 5px;
+    padding: 15px 3rem;
+    font-family: $roboto-regular;
+
+    .job-name {
+        font-family: $roboto-bold;
+        font-size: 16px;
+        color: $black;
+        margin-bottom: 15px;
+    }
+
+    .details-section {
+        margin: 15px 0;
+
+        .section-name {
+            // font-family: $roboto-medium;
+            // font-size: 15px;
+            // color: $black;
+            // margin-bottom: 10px;
+
+            color: #000;
+            font-family: Roboto;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 0.3rem;
+        }
+    }
+
+    .section-name {
+        // font-family: $roboto-medium;
+        // font-size: 15px;
+        // color: $black;
+        // margin-bottom: 10px;
+
+        color: #000;
+        font-family: Roboto;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 0.3rem;
+    }
+
+    .job-desc {
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: $text;
+    }
+
+    .links-show {
+        margin: 12px 0;
+        color: $black;
+        font-size: 13px;
+
+        .link {
+            color: $blue;
+            text-decoration: underline;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    }
+
+    .job-due-status-container {
+        display: flex;
+        line-height: 1.125rem;
+        font-family: Inter;
+        gap: 0.67rem;
+        justify-content: space-between;
+
+        .job-due-title {
+            color: #767F8C;
+            font-size: 0.75rem;
+            font-style: normal;
+            font-weight: 400;
+            /* 150% */
+            text-transform: uppercase;
+            margin-bottom: 0.5rem;
+        }
+
+        .job-due-data {
+            color: var(--gray-900, #18191C);
+            font-size: 0.875rem;
+            font-style: normal;
+            font-weight: 500;
+        }
+    }
+
+    .statistics {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 25px;
+
+        .ant-rate {
+            font-size: 15px;
+            margin-top: 5px;
+
+            .ant-rate-star {
+                margin-inline-end: 2px;
+            }
+        }
+
+        .rating {
+            font-size: 14px;
+            color: $black;
+        }
+
+        .projects-and-payments {
+            font-size: 14px;
+            color: $black;
+
+            .verified {
+                font-size: 12px;
+                color: $light-text;
+                margin-top: 7px;
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 4px;
+                }
+            }
+        }
+    }
+}
+.verified{
+    width: max-content;
+    height: max-content;
+}
+.prent-user-container {
+    display: flex;
+
+    .job-poster-data-container{
+        display: flex;
+        flex-wrap: wrap;
+
+        >div {
+            h4{
+                margin-bottom: 0.5rem;
+            }
+            padding: 10px;
+            min-height: 50px;
+            width: fit-content;
+        }
+    }
+}

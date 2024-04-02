@@ -1,0 +1,61 @@
+.prent-user-container {
+    display: flex;
+
+    .parent-data-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        >div {
+            padding: 10px;
+            min-height: 50px;
+            width: fit-content;
+        }
+    }
+}
+
+.child-constainer {
+    margin-top: 1.5rem;
+
+    .child-data-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        >div {
+            padding: 10px;
+            min-height: 50px;
+            width: fit-content;
+        }
+    }
+
+    .tag-container {
+        display: flex;
+        gap: 0.76rem;
+
+        .tag-item {
+            background-color: #E8EAED;
+            color: #5F6D81;
+            padding: 5px 10px;
+            // margin-right: 10px;
+            border-radius: 3px;
+            font-size: 11px;
+
+        }
+    }
+
+}
+.user-details{
+    .ant-select-selection-placeholder {
+        color: black !important;
+    }
+    
+    .ant-select-selector {
+        border-radius: 50px !important;
+        height: 35px;
+    
+        .ant-select-selection-overflow {
+            flex-wrap: nowrap !important;
+            overflow: auto;
+        }
+    }
+
+}

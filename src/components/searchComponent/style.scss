@@ -1,0 +1,207 @@
+.search-input-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 350px;
+    padding: 5px;
+    background-color: #ffffff;
+  
+    input {
+      flex: 1;
+      border: none;
+      outline: none;
+      padding: 5px;
+      background-color: transparent;
+      font-size: 16px;
+  
+      &::placeholder {
+        color: #999;
+      }
+    }
+  
+    button {
+      background: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      margin-left: 5px;
+      font-size: 16px;
+      color: #555;
+    }
+    .dropdown {
+        // position: absolute;
+        // width: 100%;
+        
+        // padding-top: 5px;
+        // margin-top: 5px; /* Add some margin to separate dropdown from input field */
+        // background-color: #fff;
+        // border: 1px solid #ccc;
+        // border-radius: 4px;
+        // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        position: absolute;
+        //top: 100%;
+        //left: 0;
+        margin-top: 5px;
+        width: 100%;
+        padding-top: 5px; /* Add padding to separate dropdown from input field */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        .segment {
+          padding: 10px;
+  
+          .segment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 8px;
+  
+            .see-all-button {
+              background-color: transparent;
+              border: none;
+              color: #0073b1;
+              cursor: pointer;
+              font-size: 14px;
+              padding: 0;
+            }
+          }
+  
+          .segment-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+  
+            li {
+              padding: 8px 0;
+              cursor: pointer;
+  
+              &:hover {
+                background-color: #f4f4f4;
+              }
+            }
+          }
+        }
+      }
+  }
+  /* Custom styles for the modal */
+.custom-modal {
+    /* Customize the overlay background color and opacity */
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    &-content {
+      /* Customize the modal background color, box shadow, and size */
+      background-color: #f8f8f8;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .segment {
+      margin-bottom: 20px;
+  
+      &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 8px;
+  
+        .see-all-button {
+          /* Customize the "See All" button styles */
+          background-color: transparent;
+          border: none;
+          color: #0073b1;
+          cursor: pointer;
+          font-size: 14px;
+          padding: 0;
+        }
+      }
+  
+      .segment-list {
+        list-style: none;
+        padding: 0;
+        margin: 10px 0;
+  
+        li {
+          padding: 8px 0;
+  
+          &:hover {
+            background-color: #f4f4f4;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .search-select {
+    position: relative;
+  
+    .search-input {
+      position: relative;
+  
+      input {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+      }
+  
+      .dropdown {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        max-height: 200px;
+        overflow-y: auto;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+        .segment {
+          padding: 10px;
+  
+          .segment-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 8px;
+  
+            .see-all-button {
+              background-color: transparent;
+              border: none;
+              color: #0073b1;
+              cursor: pointer;
+              font-size: 14px;
+              padding: 0;
+            }
+          }
+  
+          .segment-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+  
+            li {
+              padding: 8px 0;
+              cursor: pointer;
+  
+              &:hover {
+                background-color: #f4f4f4;
+              }
+            }
+          }
+        }
+      }
+    }
+  }

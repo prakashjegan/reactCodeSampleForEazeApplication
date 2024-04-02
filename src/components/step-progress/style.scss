@@ -1,0 +1,94 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.indexedStep {
+    color: $black;
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+    font-family: $roboto-regular;
+    background-color: #F6F6F6;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+    .step-text{
+        position: absolute;
+        bottom: -20px;
+        width: 100px;
+        text-align: center;
+    }
+    .done-text {
+        font-family: $roboto-regular;
+        color: $green;
+    }
+    .not-done-text {
+        font-family: $roboto-regular;
+        color: $black;
+    }
+}
+
+.indexedStep.accomplished {
+    background-color: $green;
+    color: white;
+    border-style: none;
+}
+
+.RSPBprogressBar {
+    height: 7px;
+    width: 80%;
+    line-height: 1;
+    border-radius: 10px;
+    position: relative;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 0;
+    margin: 20px auto;
+}
+
+.RSPBprogressBar .RSPBstep {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    transition-property: all;
+    transition-timing-function: ease;
+}
+
+.RSPBprogressBar .RSPBprogressBarText {
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.RSPBprogressBar .RSPBprogression {
+    position: absolute;
+    transition: width 0.3s ease;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background: $green;
+    z-index: -1;
+}
+
+@media screen and (max-width: 480px) {
+    .indexedStep{
+        width: 15px;
+        height: 15px;
+        font-size: 6px;
+    }
+}

@@ -1,0 +1,115 @@
+@import "../../../constants/colors.scss";
+@import "../../../constants/fonts.scss";
+
+.metrics-filter-container {
+    .header-view {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .card-name {
+            font-size: 16px;
+            font-family: $roboto-bold;
+            color: $black;
+            letter-spacing: 0.5px;
+            margin-right: 15px;
+        }
+
+        .influencers-input {
+            width: 200px;
+            margin-right: 7.5px;
+        }
+
+        .breakpoint-selection {
+            display: flex;
+            align-items: center;
+
+            .breakpoint-item {
+                padding: 5px 20px;
+                border: 1px solid $border;
+                margin: 0 7.5px;
+                border-radius: 5px;
+                font-size: 14px;
+                font-family: $roboto-medium;
+                color: $border;
+                cursor: pointer;
+            }
+
+            .active-breakpoint {
+                background-color: $blue;
+                color: $white;
+                border: 1px solid $blue;
+            }
+        }
+    }
+
+    .select-view {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+
+        .select-view-input {
+            margin-right: 15px;
+            min-width: 110px;
+            max-width: 150px;
+
+            .ant-select-selector {
+                border-radius: 50px;
+                height: 35px;
+                .ant-select-selection-overflow{
+                    flex-wrap: nowrap !important;
+                    overflow: auto;
+                }
+            }
+        }
+
+        .ant-picker {
+            border-radius: 50px;
+            height: 35px;
+        }
+    }
+
+    .ant-select-selection-placeholder {
+        color: $black;
+        font-size: 14px;
+    }
+
+    .ant-picker-input>input::placeholder {
+        color: $black;
+        font-size: 14px;
+    }
+
+    .filter-applied {
+        background-color: $light-background;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+
+        .filter-applied-item{
+            padding: 10px 15px;
+            border-radius: 50px;
+            background-color: $light-blue;
+            font-family: $roboto-regular;
+            font-size: 13px;
+            color: $black;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            .remove-icon{
+                margin-left: 10px;
+                width: 17px;
+                height: 17px;
+                cursor: pointer;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

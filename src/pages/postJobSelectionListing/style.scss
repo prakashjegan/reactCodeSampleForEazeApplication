@@ -1,0 +1,391 @@
+.secondaryButton {
+    position: relative;
+    font-weight: 600;
+  }
+  .buttonSecondary {
+    border-radius: var(--br-10xs);
+    border: 1px solid var(--primary);
+    box-sizing: border-box;
+    width: 249px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-2xs-5) var(--padding-35xl);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .buttonPrimary,
+  .buttonSecondaryParent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .buttonPrimary {
+    border-radius: var(--br-10xs);
+    background-color: var(--primary);
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-2xs-5) var(--padding-45xl);
+    color: var(--white);
+  }
+  .buttonSecondaryParent {
+    flex-direction: row;
+    gap: var(--gap-base);
+  }
+  .atomicVerticalDividorSmall {
+    position: relative;
+    width: 0;
+    height: 43px;
+    display: none;
+  }
+  .checkboxIcon {
+    width: 16px;
+    height: 16px;
+    display: none;
+  }
+  .checkboxIcon,
+  .jobShortDescription {
+    position: relative;
+  }
+  .icInfoOutline24pxIcon {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .jobShortDescriptionParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    font-size: var(--table-14-regular-size);
+    font-family: var(--text-12-bold);
+  }
+  .titleParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-9xs);
+  }
+  .checkboxParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+  }
+  .icTruckShipping24pxIcon {
+    position: relative;
+    width: 17.52px;
+    height: 18px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .atomic,
+  .title,
+  .updatedTitle {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .atomic {
+    border-radius: var(--br-xl);
+    background-color: var(--blue-purchase);
+    height: 30px;
+    overflow: hidden;
+    display: none;
+    padding: var(--padding-5xs) var(--padding-xs);
+    box-sizing: border-box;
+    gap: var(--gap-9xs);
+    font-size: var(--text-12-bold-size);
+    color: var(--white);
+    font-family: var(--text-12-bold);
+  }
+  .title,
+  .updatedTitle {
+    display: flex;
+    gap: var(--gap-29xl);
+  }
+  .updatedTitle {
+    gap: var(--gap-5xl);
+  }
+  .atomicVerticalDividorSmall1 {
+    position: relative;
+    width: 1px;
+    height: 43px;
+  }
+  .lastUpdated {
+    font-weight: 600;
+  }
+  .statusActiveParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .amount {
+    font-weight: 600;
+    font-family: var(--text-xs-medium);
+  }
+  .b {
+    font-family: var(--text-12-bold);
+    color: var(--warning);
+  }
+  .frameGroup,
+  .itemNormalParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .itemNormalParent {
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+  }
+  .frameGroup {
+    width: 530px;
+    justify-content: space-between;
+  }
+  .clone {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 20px);
+    font-weight: 600;
+  }
+  .button,
+  .materialSymbolseditOutlineIcon {
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .button {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--primary);
+    box-sizing: border-box;
+    width: 120px;
+    height: 40px;
+  }
+  .materialSymbolseditOutlineIcon {
+    width: 24px;
+    height: 24px;
+  }
+  .actions,
+  .component19 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .actions {
+    justify-content: center;
+    gap: var(--gap-5xl);
+    text-align: center;
+    font-size: var(--table-14-regular-size);
+    color: var(--primary);
+  }
+  .component19 {
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    border: 1px solid var(--border);
+    box-sizing: border-box;
+    width: 1173px;
+    padding: var(--padding-mini) var(--padding-5xl);
+    justify-content: space-between;
+  }
+  .component19Parent,
+  .frameParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .component19Parent {
+    gap: var(--gap-5xl);
+    color: var(--black);
+  }
+  .frameParent {
+    position: absolute;
+    top: 112px;
+    left: calc(50% - 633.5px);
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    padding: var(--padding-29xl);
+    gap: var(--gap-29xl);
+  }
+  .frameChild {
+    position: relative;
+    width: 50.59px;
+    height: 45.92px;
+    object-fit: cover;
+  }
+  .groupWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .influkart {
+    position: relative;
+    letter-spacing: 0.09em;
+    -webkit-text-stroke: 0.6px #000162;
+  }
+  .influencersSocialNetwork {
+    position: relative;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.01em;
+    margin-top: -2px;
+  }
+  .frameParent7,
+  .influkartParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent7 {
+    position: absolute;
+    top: 6px;
+    left: 100px;
+    width: 258px;
+    flex-direction: row;
+    gap: var(--gap-5xs);
+    font-size: 31.38px;
+  }
+  .helloJano,
+  .seniorManager {
+    position: relative;
+    font-weight: 500;
+  }
+  .helloJano {
+    line-height: 16px;
+    text-transform: uppercase;
+  }
+  .seniorManager {
+    line-height: 24px;
+    display: none;
+  }
+  .profileDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .profile1Child {
+    position: relative;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .profile1 {
+    position: absolute;
+    top: 12px;
+    left: 1210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    text-align: right;
+    color: var(--basic-theme-gray-100);
+  }
+  .iconContainer {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  .search,
+  .search1 {
+    display: flex;
+    align-items: center;
+  }
+  .search1 {
+    position: relative;
+    line-height: 24px;
+    width: 177px;
+    flex-shrink: 0;
+  }
+  .search {
+    position: absolute;
+    top: 12px;
+    left: 378px;
+    border-radius: var(--br-5xs);
+    background-color: var(--white);
+    border: 1px solid var(--color-dimgray-200);
+    flex-direction: row;
+    padding: var(--padding-5xs) var(--padding-base);
+    justify-content: flex-start;
+    gap: var(--gap-6xs);
+    color: var(--color-gray-200);
+  }
+  .home {
+    position: relative;
+    line-height: 16px;
+    font-weight: 600;
+  }
+  .homeParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    color: var(--basic-theme-gray-100);
+  }
+  .home1,
+  .seniorManager2 {
+    position: relative;
+    line-height: 16px;
+    font-weight: 500;
+  }
+  .seniorManager2 {
+    line-height: 24px;
+    color: var(--basic-theme-gray-100);
+    display: none;
+  }
+  .instanceParent,
+  .queryParent {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .queryParent {
+    flex-direction: column;
+    gap: var(--gap-9xs);
+    opacity: 0.6;
+  }
+  .instanceParent {
+    position: absolute;
+    top: 10px;
+    left: 642px;
+    flex-direction: row;
+    gap: var(--gap-29xl);
+    text-align: right;
+    color: var(--black);
+  }
+  .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--white);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.16);
+    width: 1440px;
+    height: 64px;
+    overflow: hidden;
+    font-size: var(--table-14-regular-size);
+    color: var(--color-midnightblue-100);
+  }
+  .forBusiness {
+    position: relative;
+    background-color: var(--color-whitesmoke-100);
+    width: 100%;
+    height: 1126px;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--primary);
+    font-family: var(--text-xs-medium);
+  }
+  

@@ -1,0 +1,14 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.messages-container {
+    
+    padding: 50px 70px;
+    font-family: $roboto-bold;
+    font-size: 16px;
+    color: $black;
+    .messages-space{
+        display: flex;
+        gap: 0.05rem;
+    }
+}

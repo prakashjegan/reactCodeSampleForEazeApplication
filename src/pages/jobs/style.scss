@@ -1,0 +1,87 @@
+@import "../../constants/colors.scss";
+@import "../../constants/fonts.scss";
+
+.jobs-container {
+    padding: 10px;
+    font-family: $roboto-regular;
+    font-size: 16px;
+    color: $black;
+
+    .jobs-tab {
+        padding: 5px 15px;
+        background-color: $white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+
+        .tab-item {
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin: 7.5px 0;
+            margin-right: 25px;
+            font-size: 14px;
+            color: $light-text;
+            cursor: pointer;
+        }
+
+        .active-tab {
+            background-color: $blue;
+            color: $white;
+        }
+    }
+
+    .filtered-list {
+        -ms-overflow-style: none;  /* Internet Explorer 10+ */
+        scrollbar-width: none;  /* Firefox */
+    }
+    .filtered-list::-webkit-scrollbar { 
+        display: none;  /* Safari and Chrome */
+    }
+
+    .filtered-list {
+        padding: 0 15px;
+        min-height: 50px;
+        background-color: $white;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        overflow-x: scroll;
+
+        .filter-icon {
+            width: 20px;
+            height: 20px;
+            margin-right: 15px;
+        }
+
+        .selected-item {
+            height: 33px;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            background-color: $blue;
+            border-radius: 50px;
+            margin-right: 10px;
+            font-size: 13px;
+            color: $white;
+
+            .delete {
+                width: 14px;
+                height: 14px;
+                cursor: pointer;
+                margin-left: 10px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .details-container {
+        display: flex;
+        // justify-content: space-between;
+    }
+}

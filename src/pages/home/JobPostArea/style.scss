@@ -1,0 +1,12 @@
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin: 0.3rem;
+
+  .tag-item {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 11px;
+  }
+}

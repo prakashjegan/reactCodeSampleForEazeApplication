@@ -1,0 +1,24 @@
+@import "../../../constants/colors.scss";
+@import "../../../constants/fonts.scss";
+
+.onboarding-address-container {
+    margin-top: 65px;
+}
+
+.onboarding-header{
+    margin-top: 16px;
+}
+
+.addCardAddress ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+   
+}
+
+
+.addCardAddress ul li {
+    list-style: none;
+    flex: 0 0 25%;
+}
+
